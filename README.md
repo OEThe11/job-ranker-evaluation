@@ -151,13 +151,13 @@ So the next version of this is a harder test set. I expect the number to drop. A
 
 ## Caveats
 
-**The keyword flags were built to sort, not to classify.** Reading them as verdicts was my choice, and I checked the obvious alternative reading above. Both score 9, as does answering APPLY to everything. What I have not ruled out is some third mapping of those same flags that does better.
+**The keyword flags were built to sort but not to classify.** Reading them as verdicts was my choice, and I checked the obvious alternative reading above. Both score 9, as does answering APPLY to everything. What I have not ruled out is some third mapping of those same flags that does better.
 
 **35 postings are missing from the corpus.** The test set is frozen from a cohort of 309 postings, but 33 had been taken down by the time I exported it and 2 were retitled. Postings that disappear fast probably skew toward roles that filled fast, so the frozen set isn't a neutral sample.
 
 **20 rows is small.** One case is five percentage points. I'm reporting raw counts rather than percentages for that reason.
 
-**The pay parser has at least one known false negative.** I spot-checked three rows against their live postings, and one row showing no pay in the CSV had a salary visible on the page. So the 32% detection rate is a floor, not a measurement.
+**The pay parser has at least one known false negative.** I spot-checked three rows against their live postings, and one row showing no pay in the CSV had a salary visible on the page. So the 32% detection rate is a floor.
 
 ---
 
